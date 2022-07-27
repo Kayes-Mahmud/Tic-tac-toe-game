@@ -1,0 +1,95 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+}
+
+.background {
+    background-color: #244b54;
+    padding-top: 1px;
+}
+
+.title {
+    color: #1f697cff;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 10%;
+    text-shadow: -3px -2px #8dc8d7;
+}
+
+.display {
+    color: #dddeee;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.hide {
+    display: none;
+}
+
+.container {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 33% 33% 33%;
+    max-width: 85%;
+
+}
+
+.tile {
+    border: 2px solid #82cf68;
+    min-width: 100px;
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+.playerX {
+    color: tomato;
+}
+
+.playerO {
+    color: #f8d65c;
+}
+
+.controls {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1em;
+}
+
+.controls button {
+    color: ##39555d;
+    padding: 8px;
+    border-radius: 8px;
+    border: none;
+    font-size: 30px;
+    margin-left: 1em;
+    cursor: pointer;
+    padding: 15px 25px;
+}
+
+.restart {
+    background-color: #86daef;
+}
+
+#reset {
+    background-color: #86daef;
+}
+.dev {
+  margin-top: 1.5em;
+  padding-bottom: 1em;
+  color: #dddeee;
+  text-align: center;
+}
+.dev a {
+  text-decoration: none;
+  color: #94eb94;
+}
