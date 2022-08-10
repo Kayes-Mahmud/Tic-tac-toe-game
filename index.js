@@ -113,6 +113,7 @@ window.addEventListener('DOMContentLoaded', () => {
             tile.innerText = '';
             tile.classList.remove('playerX');
             tile.classList.remove('playerO');
+            navigator.vibrate(200)
         });
     }
 
